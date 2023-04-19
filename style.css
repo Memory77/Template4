@@ -28,6 +28,7 @@ header{
 #nav{
     display: flex;
 }
+
 li{
     padding-left: 40px;
     list-style: none;
@@ -57,4 +58,27 @@ display: flex;
     width: 80%;
 }
 
+input{
+    background-color: #fff7ed;
+    border-color: #fff7ed;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+textarea{
+    background-color: #fff7ed;
+    border-color: #fff7ed;
+    margin-top: 10px;
+    margin-left: 80px;
+}
 
+.btn{
+    background-color: rgb(240, 238, 238);
+}
+
+#list{
+    display: flex;
+}
+
+ul{
+    padding-right: 190px;
+}
