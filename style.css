@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100&display=swap');
+
+html{
+    font-family: 'Anuphan', sans-serif;
+}
+
+body{
+    height: 20vh;
+}
+
+header{
+    width: 100%;
+    height: 20vh;
+}
+
+#content-title, nav{
+    border: 2px solid black;
+    background-color: #fff7ed;
+}
+
+#content-title h1{
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+
+#nav{
+    display: flex;
+}
+li{
+    padding-left: 40px;
+    list-style: none;
+}
+
+/* section content */
+
+h2{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.content-des img{
+    padding: 5px;
+}
+#content{
+    width: 45%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.content-des{
+display: flex;
+}
+
+.des{
+    width: 80%;
+}
+
+
